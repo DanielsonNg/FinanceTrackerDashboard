@@ -1,5 +1,4 @@
-const LoginSchema = require('./login')
-
+const AuthSchema = require('./auth')
 module.exports={
-    LoginSchema,
+    AuthSchema
 }
