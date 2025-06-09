@@ -16,6 +16,6 @@ router.post('/send-reset-otp', sendResetOtp)
 router.post('/reset-password', resetPassword)
 
 //User
-router.get('/data',userAuth, getUserData)
+router.get('/get-user-data',userAuth, getUserData)
 
 module.exports = router
